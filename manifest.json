@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Bilibili 合集时长计算器",
+    "version": "1.0",
+    "description": "计算B站视频合集指定分集的总时长",
+    "icons": {
+        "48": "icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.bilibili.com/video/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end" 
+        }
+    ]
+}
