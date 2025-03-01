@@ -17,7 +17,6 @@ document.getElementById('calculate').addEventListener('click', () => {
             return;
         }
 
-        // 先注入内容脚本（如果尚未注入）
         chrome.scripting.executeScript({
             target: {
                 tabId: activeTab.id
@@ -30,7 +29,6 @@ document.getElementById('calculate').addEventListener('click', () => {
                 return;
             }
 
-            // 再发送消息
             chrome.tabs.sendMessage(activeTab.id, {
                 action: "calculateDuration",
                 start: start,
