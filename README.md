@@ -16,4 +16,4 @@ edge同样，进入：`edge://extensions/`
 
 ![image](https://github.com/user-attachments/assets/32b07fc5-7caa-4796-a625-743d78290b3a)
 
-有问题联系t2847202298@163.com
+有问题联系: t2847202298@163.com
