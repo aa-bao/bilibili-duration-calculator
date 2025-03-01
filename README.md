@@ -1,4 +1,4 @@
-# BiliBilli视频分集总时长计算插件
+# BiliBilli视频分集总时长统计插件
 
 google浏览器使用：
 
