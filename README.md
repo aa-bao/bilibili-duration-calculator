@@ -2,15 +2,15 @@
 
 google浏览器使用：
 
-进入：chrome://extensions/
+进入：`chrome://extensions/`
 
-打开开发者模式，然后加载已解压的扩展程序，选中此插件目录 bilibili-duration-calculator 即可
+打开开发者模式，然后加载已解压的扩展程序，选中此插件目录 `bilibili-duration-calculator` 即可
 
-edge同样，进入：edge://extensions/
+edge同样，进入：`edge://extensions/`
 
-打开开发者模式，然后加载已解压的扩展程序，选中此插件目录 bilibili-duration-calculator 
+打开开发者模式，然后加载已解压的扩展程序，选中此插件目录 `bilibili-duration-calculator `
 
-效果如下图，
+效果如下图:
 
 ![image](https://github.com/user-attachments/assets/283f9280-3fb9-447d-80ec-24bd9b94df0f)
 
